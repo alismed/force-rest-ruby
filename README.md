@@ -13,7 +13,7 @@ Create a config.yml file from config-example.yml file and fill in the values app
 
 	$ cp config-example.yml config.yml
 
-Update the VALUE with appropriate values for :code:`client_id`, :code:`client_secret`, :code:`username` and :code:`password`.
+Update the VALUE with appropriate values for `client_id`, `client_secret`, `username` and `password`.
 
 
 Get Limits
