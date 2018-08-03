@@ -6,9 +6,9 @@ class Util
   
   def self.authenticate
     credentials = YAML.load(File.open("./config.yml"))['credentials']
-  
+
     response = RestClient.post(
-                                'https://userede--preprod.cs79.my.salesforce.com/services/oauth2/token',
+                                credentials['url_base'] + '/services/oauth2/token',
                                 {
                                   :grant_type => 'password',
                                   :client_id => credentials['client_id'],

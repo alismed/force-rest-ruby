@@ -3,3 +3,5 @@ credentials:
    client_secret: VALUE
    username: VALUE
    password: VALUE
+   token: VALUE
+   url_base: VALUE

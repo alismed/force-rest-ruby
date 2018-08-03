@@ -4,7 +4,7 @@ require 'util'
 
   def get
     response = Util.get_limits
-    pp response
+    p response
   end
 
 get
