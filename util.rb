@@ -45,4 +45,8 @@ class Util
     parsed_response =  JSON.parse(response.body)
   end
 
+  def self.get_last_version
+    versions = get_versions
+    versions.last
+  end
 end
