@@ -26,3 +26,17 @@ Execute the program to list limits information for your organization
 	$ ruby get_limits.rb
 
 
+Get Versions
+=============
+Execute the program to list the versions availables
+
+
+	$ ruby get_versions.rb
+
+Get Last Version
+=================
+Execute the program to list the last version available
+
+
+	$ ruby get_last_version.rb
+
