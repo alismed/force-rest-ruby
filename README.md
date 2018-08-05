@@ -1,5 +1,7 @@
 Requirement
 ============
+[Get your Developer Edition](https://developer.salesforce.com/signup)
+
 [Defining Connected Apps](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_defining_remote_access_applications.htm)
 
 [Reset Your Security Token](https://help.salesforce.com/articleView?id=user_security_token.htm&type=5)
