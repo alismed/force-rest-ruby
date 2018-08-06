@@ -49,4 +49,15 @@ class Util
     versions = get_versions
     versions.last
   end
+
+  def self.get_sobjects_list()
+    credentials = Util.authenticate
+    url = credentials['instance_url'] + '/services/data/v43.0/sobjects/'
+    response = RestClient.get(url,
+                              {:Authorization => 'Bearer ' + credentials['access_token'],
+                               :content_type => 'application/json'})
+
+    parsed_response = JSON.parse(response.body)
+  end
+
 end
